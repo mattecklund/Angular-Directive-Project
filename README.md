@@ -171,7 +171,7 @@ The hard part here is the `@`, `=`, and `&`. They each have very important and d
 - `=` says take in my attribute value as a two-way bound variable from the parent scope.
 - `&` says take in my attribute value as a reference to a function on the parent scope.
 
-It's also critical to point out that once you add a `scope` object you have no isolated your directive's scope. Meaning, aside from the values passed in through attributes, this directive has no connection to the `$scope` of its parent.
+It's also critical to point out that once you add a `scope` object you have now isolated your directive's scope. Meaning, aside from the values passed in through attributes, this directive has no connection to the `$scope` of its parent.
 
 That being said let's isolate our directive's scope. :worried:
 - Add the scope property to your `dirWeather`.
